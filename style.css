@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==>Mobile View<== */
+
+.box
+{
+    width: 52vw;
+    height: 58vh;
+    background: linear-gradient(rgb(200, 211, 210),rgb(235, 230, 240)); 
+    float: right;
+    border-bottom-left-radius: 50px;
+}
+
+
+
+
+ .image1
+{
+    padding-top: 13px;
+    padding-left: 20px;
+    
+}
+.image2 
+{
+     position: absolute;
+     top: 100px;
+     right: -153px;
+     width: 138%;
+}
+.image3
+{
+    width: 40px;
+    height: 50px;
+    float: right;
+    margin-top: 8px;
+    margin-right:18px;
+   
+}
+.button
+{
+   
+
+
+    color: white;
+    background-color: black;
+    font-size: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    font-weight: 550;
+    
+}
+.content-box
+{
+    position: absolute;
+    top: 450px;
+    padding-left: 20px;
+}
+
+
+.in2
+{
+    display: inline-block;
+    word-spacing: 15px;
+}
+
+
+.p1
+{
+    
+    position: absolute;
+    top: 500px;
+    font-size: 34px;
+    font-weight:bolder;
+    padding-left: 20px;
+    font-family: Barlow;
+}
+.p2
+{
+    position: absolute;
+    top: 590px;
+    padding-left: 20px;
+    color: rgba(46, 45, 45, 0.692);
+    font-size: 20px;
+    font-family: Barlow+Condensed;
+    
+    
+    
+}
+
+.button1
+{
+    color: white;
+    background-color: hsl(0, 100%, 68%);
+    padding: 13px;
+    border-radius: 7px;
+    border-color: hsl(0, 100%, 68%);
+}
+.para
+{
+    position: absolute;
+    top: 650px;
+  
+    padding-left: 15px;
+    padding-top: 20px;
+    color: rgba(119, 136, 153, 0.671);
+    
+    
+}
+.divi1
+{
+    padding-left: 10px;
+    color: gray;
+}
+.in1
+{
+ display: inline-block;
+ 
+}
+.in3
+{
+    padding-left: 13px;
+}
+
+/* ==>Desktop View<== */
+
+@media screen and (min-width:500px) {
+    .box,.image1,.image2,.image3,.button,.content-box,.in2,.p1,.p2,.button1,.para,.divi1,.in1,.in3
+    {
+         display: none;
+    }
+    
+}
+@media screen and (max-width:499px)  {
+    .box1,.img1,.box2,.span1,.d2,.d3,.img2,.division,.co1,.d1,.n1button,.paragraph1,.paragraph2,.paragraph3,.n2button,.paragraph4
+    {
+          display: none;
+    }
+}
+
+
+.box1
+{
+    width: 35vw;
+    height: 59vh;
+    background: linear-gradient(rgb(200, 211, 210),rgb(235, 230, 240)); 
+    float: right;
+    border-bottom-left-radius: 50px;
+}
+
+
+
+.img1
+{
+    padding-top: 90px;
+    padding-left: 220px;
+}
+.box2
+{
+    width: 80%;
+    float: right;
+    background-color: rgba(119, 136, 153, 0.671);
+}
+
+
+
+
+
+.span1
+{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    padding-left: 870px;
+    padding-top: 40px;
+}
+.d2
+{
+   
+    display: inline-block;
+    padding-left: 40px;
+    font-family: Barlow;
+}
+.d3
+{
+    color: gray;
+}
+
+
+
+
+.img2
+{
+    
+    width: 70%;
+    height: 70vh;
+    
+    position: absolute;
+    left: 1030px;
+    bottom: 5px;
+}
+.division
+{
+    display: inline-block;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+
+.co1
+{
+    color: rgba(119, 136, 153, 0.671);
+}
+.d1
+{
+    padding-left: 200px;
+}
+.n1button
+{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    font-weight: 550;  
+}
+.paragraph1
+{
+    font-size: 54px;
+    font-weight: bolder;
+    font-family: Barlow;
+    padding-left: 10px;
+    
+}
+
+.paragraph2
+{
+    font-size: 24px;
+    color: rgba(119, 136, 153, 0.671);
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.paragraph3
+{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 30px;
+    color: rgba(119, 136, 153, 0.671);
+}
+
+.n2button
+{
+    color: white;
+    background-color: hsl(0, 100%, 68%);
+    padding: 17px 30px;
+    border-radius: 7px;
+    border-color: hsl(0, 100%, 68%);
+    font-family: Barlow;
+    font-size: 15px;
+}
+.paragraph4
+{
+    padding-left: 2px;
+    
+}
+
